@@ -1,4 +1,3 @@
-
 import HeroCover from "../Images/HeroCover.jpg"
 import PIC1 from "../Images/PIC1.jpg"
 import PIC3 from "../Images/PIC3.jpg"
