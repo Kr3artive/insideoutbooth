@@ -1,9 +1,9 @@
 
-import HeroCover from "../images/HeroCover.jpg"
-import PIC1 from "../images/PIC1.jpg"
-import PIC3 from "../images/PIC3.jpg"
-import PIC4 from "../images/PIC4.jpg"
-import PIC5 from "../images/PIC5.jpg"
+import HeroCover from "../Images/HeroCover.jpg"
+import PIC1 from "../Images/PIC1.jpg"
+import PIC3 from "../Images/PIC3.jpg"
+import PIC4 from "../Images/PIC4.jpg"
+import PIC5 from "../Images/PIC5.jpg"
 
 const Info1 = () => {
   return (
