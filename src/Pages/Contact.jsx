@@ -16,10 +16,10 @@ const Contact = () => {
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-6">
       <div className="max-w-6xl w-full bg-white rounded-lg shadow-lg overflow-hidden">
         <div className="p-8">
-          <h1 className="text-3xl font-bold text-center text-gray-800">
+          <h1 className="text-3xl font-bold text-center text-black">
             Contact Us
           </h1>
-          <p className="text-center text-gray-600 mt-4">
+          <p className="text-center text-black mt-4">
             We'd love to hear from you! Please fill out the form below or visit
             us at our location.
           </p>
@@ -33,7 +33,7 @@ const Contact = () => {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-md font-medium text-black"
                 >
                   Full Name
                 </label>
@@ -56,7 +56,7 @@ const Contact = () => {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-md font-medium text-black"
                 >
                   Email Address
                 </label>
@@ -76,7 +76,7 @@ const Contact = () => {
                   }`}
                 />
                 {errors.email && (
-                  <p className="text-red-500 text-sm mt-1">
+                  <p className="text-red-500 text-md mt-1">
                     {errors.email.message}
                   </p>
                 )}
@@ -85,7 +85,7 @@ const Contact = () => {
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-md font-medium text-black"
                 >
                   Message
                 </label>
@@ -99,7 +99,7 @@ const Contact = () => {
                   }`}
                 ></textarea>
                 {errors.message && (
-                  <p className="text-red-500 text-sm mt-1">
+                  <p className="text-red-500 text-md mt-1">
                     {errors.message.message}
                   </p>
                 )}
