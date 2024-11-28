@@ -15,10 +15,10 @@ const Header = () => {
         </Link>
       </div>
       <div className="hidden lg:flex gap-2">
-        <Link className="border-b-2 border-black" to={"/gallery"}>
+        <Link className="font-semibold" to={"/gallery"}>
           Gallery
         </Link>
-        <Link className="border-b-2 border-black" to={"/contact"}>
+        <Link className="font-semibold" to={"/contact"}>
           Contact Us
         </Link>
       </div>
