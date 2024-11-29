@@ -15,7 +15,7 @@ const Hero = () => {
         <p className="text-lg sm:text-xl md:text-2xl font-light max-w-2xl">
           The best choice for all your photography needs
         </p>
-        <button className="mt-6 px-6 py-3 bg-black text-white text-lg font-medium rounded-lg shadow-lg transition">
+        <button className="mt-6 px-6 py-3 bg-black text-white border-white border-2 text-lg font-medium rounded-lg shadow-lg transition">
           Explore Gallery
         </button>
       </div>
